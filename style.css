@@ -1,32 +1,86 @@
+::placeholder{
+    color: rgb(234, 77, 90);
+}
+
 .indexContainer{
 width: 80vw;
 height:90vh;
 border: solid blue;
 margin: 4vh 10vw 0vh 10vw;
+background-color: RGB(112, 112, 112);
 }
 
 /* top section container */
 .ppiContainer{
 border: 1px solid red;
-margin: 1vh 1vw 1vh 1vw; 
-height: 20vh;
+margin: 1vh 1vw 2vh 1vw; 
+height: 23vh;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
 
-.headShotContainer{
+.photoContainer{
 border: 1px solid blue;
 display: flex;
-width: 42vw;
-height: 10vh;
+width: 45vw;
+height: 13vh;
 /* margin: 0 1vw 0 0; */
 }
-
+.headShot{
+    width: 30%;
+}
+.nameAndTitleContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2vw;
+}
+#fName{
+    border: 1px solid purple;
+    font-size: 3.8vh;
+    background-color: transparent;
+    width: 29vw;
+    height: fit-content;
+}
+#fTitle{
+    background-color: transparent;
+    border: 0;
+    font-size: 1vh;
+    margin: .5vh 0 0 0;
+}
 .infoContainer{
 border: 1px solid orange;
-width: 33vw;
-height: 10vh;
+width: 25vw;
+height: 13vh;
+display: flex;
+
+}
+.nounContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 0 1vw ;
+}
+.infoClass{
+    color: white;
+    background-color: transparent;
+    font-size: 1.5vh;
+    margin: 0 0 .2vh 0 ;
+    text-align: end;
+}
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    margin: 0 0 0 1vw;
+   
+}
+.infoInfo{
+    /* height: 1vh; */
+    border: 0;
+    background-color: transparent;
+    font-size: 1vh;
+
 }
 
 .descriptionContainer{
@@ -35,12 +89,18 @@ width: 100vw;
 height: 8vh;
 margin: 1vh 0 0 0;
 }
+.areaInput{
+    font-size: 1vh4;
+    width: 77.45vw;
+    height: 8vh;
+    background-color: transparent;
+}
 
 /* employment, education, skill container */
 .allOtherContainer{
 border: 1px solid black;
 margin: 1vh 1vw 1vh 1vw;
-height: 66vh;
+height: 63vh;
 display: flex;
 }
 
@@ -84,4 +144,5 @@ height: 16vh;
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
