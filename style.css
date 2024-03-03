@@ -1,0 +1,87 @@
+.indexContainer{
+width: 80vw;
+height:90vh;
+border: solid blue;
+margin: 4vh 10vw 0vh 10vw;
+}
+
+/* top section container */
+.ppiContainer{
+border: 1px solid red;
+margin: 1vh 1vw 1vh 1vw; 
+height: 20vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.headShotContainer{
+border: 1px solid blue;
+display: flex;
+width: 42vw;
+height: 10vh;
+/* margin: 0 1vw 0 0; */
+}
+
+.infoContainer{
+border: 1px solid orange;
+width: 33vw;
+height: 10vh;
+}
+
+.descriptionContainer{
+border: 1px solid green;
+width: 100vw;
+height: 8vh;
+margin: 1vh 0 0 0;
+}
+
+/* employment, education, skill container */
+.allOtherContainer{
+border: 1px solid black;
+margin: 1vh 1vw 1vh 1vw;
+height: 66vh;
+display: flex;
+}
+
+    /* Employment and education container */
+.empAndEduContainer{
+border: 1px solid magenta;
+margin: 5vh 1vw 0 0;
+width: 50vw;
+}
+
+    /*  Skills Container */
+.skillsContainer{
+border: 1px solid blue;
+width: 27vw;
+margin: 5vh 0 5vh 0;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+
+        /* Programming Skills Container */
+.programContainer{
+border: 1px solid orange;
+margin: 0 0 2vh 0;
+height: 16vh;
+}
+
+        /* Graphic skills container */
+.graphicContainer{
+border: 1px solid red;
+margin: 0 0 2vh 0;
+height: 16vh;
+}
+
+        /* Language Skills Container */
+.languageContainer{
+border: 1px solid green;
+margin: 0 0 2vh 0;
+height: 16vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
