@@ -1,6 +1,22 @@
 ::placeholder{
     color: rgb(234, 77, 90);
 }
+/* 
+Remove code below this comment, until you hit the "Don't remove below code" comment.  This is temporary, and should be overriden automatically by css choosing next
+*/
+input{
+    color: white;
+    background-color: transparent;
+    border: transparent;
+} 
+
+textarea{
+    color: White;
+    background-color: transparent;
+    border: transparent;
+    width: 40vw;
+}
+/* Don't remove below code */
 
 .indexContainer{
 width: 80vw;
@@ -37,7 +53,7 @@ height: 13vh;
 }
 #fName{
     border: 1px solid purple;
-    font-size: 3.8vh;
+    font-size: 3.5vh;
     background-color: transparent;
     width: 29vw;
     height: fit-content;
@@ -109,8 +125,26 @@ display: flex;
 border: 1px solid magenta;
 margin: 5vh 1vw 0 0;
 width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
+hr {
+    border: none;
+    border-top: 3px dotted rgba(59, 58, 58, 0.68);
+    /* color: #333; */
+    /* overflow: visible; */
+    /* text-align: center; */
+    height: 5px;
+}
+
+.comTimeAndName{
+    display: flex;
+    justify-content: space-between;
+}
+
+        /* Employment */
 .employmentTop{
 background-color: gray;
 }
@@ -119,8 +153,25 @@ background-color: gray;
     color: white;
 }
 
+.rightSymbolEmployer{
+    background-color: rgb(49, 152, 220);
+    color: white;
+}
 
 
+        /* Education */
+.educationTop{
+background-color: gray;
+}
+.downSymbolEducator{
+    background-color: rgb(49, 152, 220);
+    color: white;
+}
+
+.rightSymbolEducator{
+    background-color: rgb(49, 152, 220);
+    color: white;
+}
 
 
     /*  Skills Container */
